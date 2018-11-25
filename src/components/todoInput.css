@@ -1,0 +1,33 @@
+.submitBtn {
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: LightSeaGreen;
+  border-color: LightSeaGreen;
+  background-color: transparent;
+}
+
+.submitBtn:hover {
+  color: PaleVioletRed;
+  border-color: PaleVioletRed;
+}
+
+input {
+  width: 80%;
+  border: none;
+  border-top: 2px solid LightSeaGreen;
+  border-bottom: 2px solid LightSeaGreen;
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  border-top: 2px solid PaleVioletRed;
+  border-bottom: 2px solid PaleVioletRed;
+}
